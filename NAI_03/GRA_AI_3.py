@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.cluster import KMeans
 import requests
 
-"""System rekomendacji filmów przy użyciu korelacji Pearsona
+"""System rekomendacji filmów przy użyciu klasteryzacji i Elbow Method
 
 Skrypt nalezy wywołać za pomocą komendy: py GRA_AI_3.py
 po czym w konsoli wpisac Nr uzytkownika z listy dla którego chcemy wykonać rekomendację
@@ -303,3 +303,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
